@@ -7,12 +7,52 @@ html {
   text-align: center;
 }
 
+a {
+  color: seashell;
+  text-decoration: underline;
+}
+
 header {
+  display: flex;
+  align-items: center;
   position: fixed;
+  flex-wrap: wrap;
   height: 69px;
+  width: 100%;
 /*  width: cover;*/
   background-color: black;
   border-bottom: 1px solid seashell;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  /*flex-grow: 1;*/
+  padding-left: 10px;
+}
+
+.logo img {
+  height: 50px;
+  margin-right: 12px;
+}
+
+nav {
+/*  display: flex;
+  width: 900px;*/
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+  }
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
 }
 
 .about {
@@ -22,6 +62,10 @@ header {
   width: 1200px;
 
 /*  vertical-align: middle;*/
+}
+
+.tea {
+  width: 1000px;
 }
 
 .locations {
