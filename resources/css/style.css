@@ -60,12 +60,27 @@ main {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   height: 700px;
   width: 1200px;
-
-/*  vertical-align: middle;*/
 }
 
 .tea {
   width: 1000px;
+}
+
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.photos h4 {
+/*  position: relative;
+  top: 10px;*/
+  vertical-align: top;
+}
+
+.tea img {
+  height: 200px;
+  width: 300px;
 }
 
 .locations {
