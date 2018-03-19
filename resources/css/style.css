@@ -12,6 +12,11 @@ a {
   text-decoration: underline;
 }
 
+h2 {
+  display: block;
+  padding: 10px;
+}
+
 header {
   display: flex;
   align-items: center;
@@ -70,12 +75,15 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  /*align-items: center;*/
 }
 
-.photos h4 {
+.photos span {
 /*  position: relative;
   top: 10px;*/
-  vertical-align: top;
+  /*vertical-align: top;*/
+  display: block;
+  margin: 10px auto 25px;
 }
 
 .tea img {
@@ -84,8 +92,29 @@ main {
 }
 
 .locations {
+  display: flex;
+  flex-direction: row;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
   height: 500px;
+  width: 1200px;
+  justify-content: center;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.addresses {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 300px;
+  width: 300px;
+  justify-content: center;
+  background-color: black;
+  opacity: 1;
+  margin: 15px 20px;
 }
 
 .contact {
