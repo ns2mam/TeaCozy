@@ -12,7 +12,7 @@ a {
   text-decoration: underline;
 }
 
-h2, {
+h2 {
   display: block;
   padding: 10px;
 }
@@ -28,7 +28,6 @@ header {
   flex-wrap: wrap;
   height: 69px;
   width: 100%;
-/*  width: cover;*/
   background-color: black;
   border-bottom: 1px solid seashell;
 }
@@ -36,7 +35,6 @@ header {
 .logo {
   display: flex;
   align-items: center;
-  /*flex-grow: 1;*/
   padding-left: 10px;
 }
 
@@ -46,8 +44,6 @@ header {
 }
 
 nav {
-/*  display: flex;
-  width: 900px;*/
   text-align: right;
   flex-grow: 1;
 }
@@ -77,8 +73,6 @@ main {
 .mission {
   background-color: black;
   width: 1200px;
-/*  display: flex;
-  justify-content: center; */
   text-align: center;
   vertical-align: middle;
 }
@@ -93,7 +87,6 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  /*align-items: center;*/
 }
 
 .unit {
@@ -101,17 +94,14 @@ main {
 }
 
 .photos span {
-/*  position: relative;
-  top: 10px;*/
-  /*vertical-align: top;*/
   display: block;
-/*  margin: 10px auto 25px;*/
+  padding: 5px 0;
 }
 
 .tea img {
   height: 200px;
   width: 300px;
-  padding: 5px;
+  margin: 5px;
 }
 
 .locations {
@@ -134,12 +124,11 @@ main {
 .addresses {
   display: flex;
   flex-direction: column;
-  flex-basis: 300px;
   width: 300px;
   justify-content: center;
   background-color: black;
   opacity: 1;
-  margin: 15px 20px;
+  margin: 5px 20px;
 }
 
 .contact {
