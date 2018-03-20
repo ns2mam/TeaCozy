@@ -12,9 +12,13 @@ a {
   text-decoration: underline;
 }
 
-h2 {
+h2, {
   display: block;
   padding: 10px;
+}
+
+h4 {
+  display: block;
 }
 
 header {
@@ -61,21 +65,39 @@ main {
 }
 
 .about {
-  /*display: flex;*/
+  display: flex;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   height: 700px;
   width: 1200px;
+  align-items: center;
+  padding-top: 45px;
+  margin: auto;
+}
+
+.mission {
+  background-color: black;
+  width: 1200px;
+/*  display: flex;
+  justify-content: center; */
+  text-align: center;
+  vertical-align: middle;
 }
 
 .tea {
   width: 1000px;
+  padding-top: 60px;
+  margin: 40px auto 100px;
 }
 
 .photos {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   /*align-items: center;*/
+}
+
+.unit {
+  margin: 10px;
 }
 
 .photos span {
@@ -83,12 +105,13 @@ main {
   top: 10px;*/
   /*vertical-align: top;*/
   display: block;
-  margin: 10px auto 25px;
+/*  margin: 10px auto 25px;*/
 }
 
 .tea img {
   height: 200px;
   width: 300px;
+  padding: 5px;
 }
 
 .locations {
@@ -98,6 +121,8 @@ main {
   height: 500px;
   width: 1200px;
   justify-content: center;
+  padding-top: 60px;
+  margin: auto;
 }
 
 .boxes {
@@ -119,8 +144,13 @@ main {
 
 .contact {
   height: 200px;
+  margin: auto;
 }
 
 footer {
   text-align: left;
+}
+
+.copyright {
+  padding-left: 20px;
 }
